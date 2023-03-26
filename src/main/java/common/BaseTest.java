@@ -20,8 +20,6 @@ public class BaseTest {
 		return this.driverBaseTest;
 	}
 
-
-	//Enum 
 	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
 
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());

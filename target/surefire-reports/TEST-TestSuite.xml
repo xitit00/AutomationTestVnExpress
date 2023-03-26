@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="108.771" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="120.736" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="VN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/target/surefire/surefirebooter4899322450891215123.jar /Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/target/surefire 2023-03-27T01-39-03_285-jvmRun1 surefire14643598871461235117tmp surefire_010835313923114118495tmp"/>
+    <property name="sun.java.command" value="/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/target/surefire/surefirebooter18324013056742242642.jar /Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/target/surefire 2023-03-27T02-54-53_626-jvmRun1 surefire3954279545003818852tmp surefire_02483322721783170518tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/target/test-classes:/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/target/classes:/Users/anhnguyen/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/anhnguyen/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/anhnguyen/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/anhnguyen/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/anhnguyen/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/anhnguyen/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/anhnguyen/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/anhnguyen/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/anhnguyen/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/anhnguyen/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/anhnguyen/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/anhnguyen/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/anhnguyen/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/anhnguyen/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/anhnguyen/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/anhnguyen/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/anhnguyen/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/anhnguyen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/anhnguyen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/anhnguyen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/anhnguyen/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/anhnguyen/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/anhnguyen/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/anhnguyen/.m2/repository/io/github/bonigarcia/webdrivermanager/5.2.1/webdrivermanager-5.2.1.jar:/Users/anhnguyen/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/anhnguyen/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/anhnguyen/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/anhnguyen/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/anhnguyen/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/anhnguyen/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/anhnguyen/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/anhnguyen/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/anhnguyen/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/anhnguyen/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/anhnguyen/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/anhnguyen/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/anhnguyen/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/anhnguyen/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/anhnguyen/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/anhnguyen/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/anhnguyen/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/anhnguyen/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/anhnguyen/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/anhnguyen/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/anhnguyen/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/Users/anhnguyen/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/anhnguyen/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/anhnguyen/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/anhnguyen/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/anhnguyen/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/anhnguyen/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/anhnguyen/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/anhnguyen/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/Users/anhnguyen/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/anhnguyen/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0.jar:/Users/anhnguyen/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/anhnguyen/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/anhnguyen/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/anhnguyen/.m2/repository/org/aspectj/aspectjweaver/1.9.8/aspectjweaver-1.9.8.jar:/Users/anhnguyen/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/target/surefire/surefirebooter4899322450891215123.jar"/>
+    <property name="surefire.real.class.path" value="/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/target/surefire/surefirebooter18324013056742242642.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
@@ -61,22 +61,22 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="TC_01_VerifyEmailInvalid" classname="com.vnexpress.Test_Authentication" time="1.892"/>
-  <testcase name="TC_02_VerifyDisplayPleaseInputPasswordErrText" classname="com.vnexpress.Test_Authentication" time="3.446"/>
-  <testcase name="TC_03_VerifyPasswordLessThanSixChars" classname="com.vnexpress.Test_Authentication" time="3.221"/>
-  <testcase name="TC_04_VerifyPasswordMuchMoreThanFifteenChars" classname="com.vnexpress.Test_Authentication" time="3.191"/>
-  <testcase name="TC_05_verifyEmailValid" classname="com.vnexpress.Test_Authentication" time="4.268"/>
-  <testcase name="TC_01_NavigateToZing" classname="com.vnexpress.Test_Navigation" time="3.68"/>
-  <testcase name="TC_02_BackToVnExpress" classname="com.vnexpress.Test_Navigation" time="5.438"/>
-  <testcase name="TC_03_RefreshVnExpressUrl" classname="com.vnexpress.Test_Navigation" time="7.437"/>
-  <testcase name="TC_04_ForwardToZing" classname="com.vnexpress.Test_Navigation" time="1.931"/>
-  <testcase name="TC_05_NavigateToTheGioiPageByClickMenu" classname="com.vnexpress.Test_Navigation" time="7.146"/>
-  <testcase name="TC_06_NavigateToPhanTichPageByHoverMenuAndClickSubMenu" classname="com.vnexpress.Test_Navigation" time="8.439"/>
-  <testcase name="TC_07_SwitchFromVnExpressToMailTab" classname="com.vnexpress.Test_Navigation" time="5.685"/>
-  <testcase name="TC_08_SwitchFromVnExpressToFacebookWindow" classname="com.vnexpress.Test_Navigation" time="2.939"/>
-  <testcase name="TC_01_Verify_Item_Header_Display" classname="com.vnexpress.Check_Article_Content" time="0.602"/>
-  <testcase name="TC_02_Verify_Navigation_Bar_Item_Display" classname="com.vnexpress.Check_Article_Content" time="1.174"/>
-  <testcase name="TC_03_Verify_Section_Page_Detail_Display" classname="com.vnexpress.Check_Article_Content" time="1.177"/>
-  <testcase name="TC_04_Verify_Social_Left_Item_Display" classname="com.vnexpress.Check_Article_Content" time="0.322"/>
-  <testcase name="TC_05_Verify_Footer_Content_Item_Display" classname="com.vnexpress.Check_Article_Content" time="0.244"/>
+  <testcase name="TC_01_VerifyEmailInvalid" classname="com.vnexpress.Test_Authentication" time="2.105"/>
+  <testcase name="TC_02_VerifyDisplayPleaseInputPasswordErrText" classname="com.vnexpress.Test_Authentication" time="3.487"/>
+  <testcase name="TC_03_VerifyPasswordLessThanSixChars" classname="com.vnexpress.Test_Authentication" time="3.188"/>
+  <testcase name="TC_04_VerifyPasswordMuchMoreThanFifteenChars" classname="com.vnexpress.Test_Authentication" time="3.252"/>
+  <testcase name="TC_05_verifyEmailValid" classname="com.vnexpress.Test_Authentication" time="4.113"/>
+  <testcase name="TC_01_NavigateToZing" classname="com.vnexpress.Test_Navigation" time="4.714"/>
+  <testcase name="TC_02_BackToVnExpress" classname="com.vnexpress.Test_Navigation" time="5.579"/>
+  <testcase name="TC_03_RefreshVnExpressUrl" classname="com.vnexpress.Test_Navigation" time="2.929"/>
+  <testcase name="TC_04_ForwardToZing" classname="com.vnexpress.Test_Navigation" time="2.335"/>
+  <testcase name="TC_05_NavigateToTheGioiPageByClickMenu" classname="com.vnexpress.Test_Navigation" time="9.797"/>
+  <testcase name="TC_06_NavigateToPhanTichPageByHoverMenuAndClickSubMenu" classname="com.vnexpress.Test_Navigation" time="7.914"/>
+  <testcase name="TC_07_SwitchFromVnExpressToMailTab" classname="com.vnexpress.Test_Navigation" time="6.781"/>
+  <testcase name="TC_08_SwitchFromVnExpressToFacebookWindow" classname="com.vnexpress.Test_Navigation" time="3.404"/>
+  <testcase name="TC_01_Verify_Item_Header_Display" classname="com.vnexpress.Check_Article_Content" time="0.841"/>
+  <testcase name="TC_02_Verify_Navigation_Bar_Item_Display" classname="com.vnexpress.Check_Article_Content" time="1.35"/>
+  <testcase name="TC_03_Verify_Section_Page_Detail_Display" classname="com.vnexpress.Check_Article_Content" time="1.777"/>
+  <testcase name="TC_04_Verify_Social_Left_Item_Display" classname="com.vnexpress.Check_Article_Content" time="0.408"/>
+  <testcase name="TC_05_Verify_Footer_Content_Item_Display" classname="com.vnexpress.Check_Article_Content" time="0.347"/>
 </testsuite>
