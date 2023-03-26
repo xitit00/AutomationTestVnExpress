@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-26T18:39:04Z" name="VnExpress" finished-at="2023-03-26T18:40:52Z" duration-ms="107971">
+    <groups>
+    </groups>
+    <test started-at="2023-03-26T18:39:04Z" name="Run On Chrome" finished-at="2023-03-26T18:40:52Z" duration-ms="107971">
+      <class name="com.vnexpress.Test_Navigation">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.vnexpress.Test_Navigation@6b2ea799]" started-at="2023-03-26T18:39:34Z" name="beforeClass" finished-at="2023-03-26T18:39:49Z" duration-ms="15736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://vnexpress.net/trong-tre-du-co-ve-lam-to-4545196.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_NavigateToZing(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Navigation@6b2ea799]" started-at="2023-03-26T18:39:49Z" name="TC_01_NavigateToZing" finished-at="2023-03-26T18:39:53Z" duration-ms="3682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Navigation.TC_01_NavigateToZing(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_NavigateToZing -->
+        <test-method signature="TC_02_BackToVnExpress(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Navigation@6b2ea799]" started-at="2023-03-26T18:39:53Z" name="TC_02_BackToVnExpress" finished-at="2023-03-26T18:39:58Z" duration-ms="5438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Navigation.TC_02_BackToVnExpress(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_BackToVnExpress -->
+        <test-method signature="TC_03_RefreshVnExpressUrl(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Navigation@6b2ea799]" started-at="2023-03-26T18:39:58Z" name="TC_03_RefreshVnExpressUrl" finished-at="2023-03-26T18:40:06Z" duration-ms="7437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Navigation.TC_03_RefreshVnExpressUrl(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_RefreshVnExpressUrl -->
+        <test-method signature="TC_04_ForwardToZing(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Navigation@6b2ea799]" started-at="2023-03-26T18:40:06Z" name="TC_04_ForwardToZing" finished-at="2023-03-26T18:40:08Z" duration-ms="1930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Navigation.TC_04_ForwardToZing(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_ForwardToZing -->
+        <test-method signature="TC_05_NavigateToTheGioiPageByClickMenu(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Navigation@6b2ea799]" started-at="2023-03-26T18:40:08Z" name="TC_05_NavigateToTheGioiPageByClickMenu" finished-at="2023-03-26T18:40:15Z" duration-ms="7145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Navigation.TC_05_NavigateToTheGioiPageByClickMenu(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_NavigateToTheGioiPageByClickMenu -->
+        <test-method signature="TC_06_NavigateToPhanTichPageByHoverMenuAndClickSubMenu(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Navigation@6b2ea799]" started-at="2023-03-26T18:40:15Z" name="TC_06_NavigateToPhanTichPageByHoverMenuAndClickSubMenu" finished-at="2023-03-26T18:40:23Z" duration-ms="8439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Navigation.TC_06_NavigateToPhanTichPageByHoverMenuAndClickSubMenu(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_NavigateToPhanTichPageByHoverMenuAndClickSubMenu -->
+        <test-method signature="TC_07_SwitchFromVnExpressToMailTab(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Navigation@6b2ea799]" started-at="2023-03-26T18:40:23Z" name="TC_07_SwitchFromVnExpressToMailTab" finished-at="2023-03-26T18:40:29Z" duration-ms="5685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Navigation.TC_07_SwitchFromVnExpressToMailTab(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_SwitchFromVnExpressToMailTab -->
+        <test-method signature="TC_08_SwitchFromVnExpressToFacebookWindow(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Navigation@6b2ea799]" started-at="2023-03-26T18:40:29Z" name="TC_08_SwitchFromVnExpressToFacebookWindow" finished-at="2023-03-26T18:40:32Z" duration-ms="2938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Navigation.TC_08_SwitchFromVnExpressToFacebookWindow(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_SwitchFromVnExpressToFacebookWindow -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.vnexpress.Test_Navigation@6b2ea799]" started-at="2023-03-26T18:40:32Z" name="afterClass" finished-at="2023-03-26T18:40:33Z" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.vnexpress.Test_Navigation -->
+      <class name="com.vnexpress.Test_Authentication">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.vnexpress.Test_Authentication@51399530]" started-at="2023-03-26T18:39:04Z" name="beforeClass" finished-at="2023-03-26T18:39:17Z" duration-ms="13467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://vnexpress.net/trong-tre-du-co-ve-lam-to-4545196.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_VerifyEmailInvalid(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Authentication@51399530]" started-at="2023-03-26T18:39:17Z" name="TC_01_VerifyEmailInvalid" finished-at="2023-03-26T18:39:19Z" duration-ms="1891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Authentication.TC_01_VerifyEmailInvalid(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_VerifyEmailInvalid -->
+        <test-method signature="TC_02_VerifyDisplayPleaseInputPasswordErrText(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Authentication@51399530]" started-at="2023-03-26T18:39:19Z" name="TC_02_VerifyDisplayPleaseInputPasswordErrText" finished-at="2023-03-26T18:39:23Z" duration-ms="3447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Authentication.TC_02_VerifyDisplayPleaseInputPasswordErrText(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_VerifyDisplayPleaseInputPasswordErrText -->
+        <test-method signature="TC_03_VerifyPasswordLessThanSixChars(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Authentication@51399530]" started-at="2023-03-26T18:39:23Z" name="TC_03_VerifyPasswordLessThanSixChars" finished-at="2023-03-26T18:39:26Z" duration-ms="3221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Authentication.TC_03_VerifyPasswordLessThanSixChars(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_VerifyPasswordLessThanSixChars -->
+        <test-method signature="TC_04_VerifyPasswordMuchMoreThanFifteenChars(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Authentication@51399530]" started-at="2023-03-26T18:39:26Z" name="TC_04_VerifyPasswordMuchMoreThanFifteenChars" finished-at="2023-03-26T18:39:29Z" duration-ms="3191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Authentication.TC_04_VerifyPasswordMuchMoreThanFifteenChars(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_VerifyPasswordMuchMoreThanFifteenChars -->
+        <test-method signature="TC_05_verifyEmailValid(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Authentication@51399530]" started-at="2023-03-26T18:39:29Z" name="TC_05_verifyEmailValid" finished-at="2023-03-26T18:39:33Z" duration-ms="4268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Authentication.TC_05_verifyEmailValid(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_verifyEmailValid -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.vnexpress.Test_Authentication@51399530]" started-at="2023-03-26T18:39:33Z" name="afterClass" finished-at="2023-03-26T18:39:34Z" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.vnexpress.Test_Authentication -->
+      <class name="com.vnexpress.Check_Article_Content">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.vnexpress.Check_Article_Content@411f53a0]" started-at="2023-03-26T18:40:33Z" name="beforeClass" finished-at="2023-03-26T18:40:48Z" duration-ms="15160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://vnexpress.net/trong-tre-du-co-ve-lam-to-4545196.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Verify_Item_Header_Display(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Check_Article_Content@411f53a0]" started-at="2023-03-26T18:40:48Z" name="TC_01_Verify_Item_Header_Display" finished-at="2023-03-26T18:40:48Z" duration-ms="603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Check_Article_Content.TC_01_Verify_Item_Header_Display(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Verify_Item_Header_Display -->
+        <test-method signature="TC_02_Verify_Navigation_Bar_Item_Display(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Check_Article_Content@411f53a0]" started-at="2023-03-26T18:40:48Z" name="TC_02_Verify_Navigation_Bar_Item_Display" finished-at="2023-03-26T18:40:50Z" duration-ms="1174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Check_Article_Content.TC_02_Verify_Navigation_Bar_Item_Display(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Verify_Navigation_Bar_Item_Display -->
+        <test-method signature="TC_03_Verify_Section_Page_Detail_Display(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Check_Article_Content@411f53a0]" started-at="2023-03-26T18:40:50Z" name="TC_03_Verify_Section_Page_Detail_Display" finished-at="2023-03-26T18:40:51Z" duration-ms="1177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Check_Article_Content.TC_03_Verify_Section_Page_Detail_Display(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Verify_Section_Page_Detail_Display -->
+        <test-method signature="TC_04_Verify_Social_Left_Item_Display(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Check_Article_Content@411f53a0]" started-at="2023-03-26T18:40:51Z" name="TC_04_Verify_Social_Left_Item_Display" finished-at="2023-03-26T18:40:51Z" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Check_Article_Content.TC_04_Verify_Social_Left_Item_Display(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_Verify_Social_Left_Item_Display -->
+        <test-method signature="TC_05_Verify_Footer_Content_Item_Display(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Check_Article_Content@411f53a0]" started-at="2023-03-26T18:40:51Z" name="TC_05_Verify_Footer_Content_Item_Display" finished-at="2023-03-26T18:40:51Z" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Check_Article_Content.TC_05_Verify_Footer_Content_Item_Display(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_Verify_Footer_Content_Item_Display -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.vnexpress.Check_Article_Content@411f53a0]" started-at="2023-03-26T18:40:51Z" name="afterClass" finished-at="2023-03-26T18:40:52Z" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.vnexpress.Check_Article_Content -->
+    </test> <!-- Run On Chrome -->
+  </suite> <!-- VnExpress -->
+</testng-results>
