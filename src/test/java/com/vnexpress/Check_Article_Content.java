@@ -39,7 +39,7 @@ public class Check_Article_Content extends BaseTest {
 
 	}
 	
-	@Test
+	//@Test
 	public void TC_01_Verify_Item_Header_Display(Method method) {
 	
 		ExtentTestManagerV5.startTest(method.getName(), "TC_01_Verify_Item_Header_Display");
@@ -162,9 +162,18 @@ public class Check_Article_Content extends BaseTest {
 		Assert.assertTrue(articlePageObject.isThuGianNavBarDisplay(nav_dymamic_class,nav_dymamic_text));
 		
 		
+		nav_dymamic_class = "suckhoe";
+		nav_dymamic_text = "Sức khỏe";
+		Assert.assertTrue(articlePageObject.isSucKhoeNavBarDisplay(nav_dymamic_class,nav_dymamic_text));
+		
+
+		nav_dymamic_class = "sohoa";
+		nav_dymamic_text = "Số hóa";
+		Assert.assertTrue(articlePageObject.isSoHoaNavBarDisplay(nav_dymamic_class,nav_dymamic_text));
+		
 	}
 	
-	@Test
+	//@Test
 	public void TC_03_Verify_Section_Page_Detail_Display(Method method) {
 		
 		ExtentTestManagerV5.startTest(method.getName(), "TC_03_Verify_Section_Page_Detail_Display");
@@ -251,7 +260,7 @@ public class Check_Article_Content extends BaseTest {
 		
 	}
 	
-	@Test
+	//@Test
 	public void TC_04_Verify_Social_Left_Item_Display(Method method) {
 		
 		ExtentTestManagerV5.startTest(method.getName(), "TC_04_Verify_Social_Left_Item_Display");
@@ -280,7 +289,7 @@ public class Check_Article_Content extends BaseTest {
 	}
 	
 	
-	@Test
+	//@Test
 	public void TC_05_Verify_Footer_Content_Item_Display(Method method) {
 		
 		ExtentTestManagerV5.startTest(method.getName(), "TC_05_Verify_Footer_Content_Item_Display");

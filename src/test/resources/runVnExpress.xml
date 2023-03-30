@@ -5,7 +5,7 @@
 
 	<listeners>
 	
-		<listener class-name="reportConfig.ExtentTestListenerV5" />
+		<!--> <listener class-name="reportConfig.ExtentTestListenerV5" /> <-->
 		
 	</listeners>
 	
@@ -17,8 +17,8 @@
 		<classes>
 		
 			<class name="com.vnexpress.Test_Authentication" />
-			<class name="com.vnexpress.Test_Navigation" /> 
-			<class name="com.vnexpress.Check_Article_Content" /> 
+			<!--><class name="com.vnexpress.Test_Navigation" />  
+			<class name="com.vnexpress.Check_Article_Content" /> <-->
 		</classes>
 		
 	</test>

@@ -12,7 +12,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-
+import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
@@ -304,6 +304,49 @@ public class BasePage {
 		driver.switchTo().window(parentPageID);
 	}
 	
+
+	// ít dùng
+
+	public String getElementAttribute(WebDriver driver , String locatorType, String attributeName) {
+
+		return getWebElement(driver, locatorType).getAttribute(attributeName);
+	}
+
+	public String getElementAttribute(WebDriver driver , String locatorType, String attributeName, String... restValues ) {
+
+		return getWebElement(driver, getDynamicXpath(locatorType, restValues)).getAttribute(attributeName);
+	}
+
+	public String getElementText(WebDriver driver , String locatorType) {
+
+		return getWebElement(driver, locatorType).getText();
+	}
+
+	public String getElementText(WebDriver driver , String locatorType, String... restValues) {
+
+		return getWebElement(driver, getDynamicXpath(locatorType, restValues)).getText();
+	}
+
+	public String getElementCssValue(WebDriver driver , String locatorType, String propertyName) {
+
+		return getWebElement(driver, locatorType).getCssValue(propertyName);
+	}
+
+	public String getHexaColorFromRGBA(String rgbaValue) {
+
+		return Color.fromString(rgbaValue).asHex();
+	}
+
+	public int getElementSize(WebDriver driver , String locatorType) {
+
+		return  getListWebElement(driver, locatorType).size();
+	}
+
+	public int getElementSize(WebDriver driver , String locatorType, String... restValues) {
+
+		locatorType = getDynamicXpath(locatorType, restValues);
+		return  getListWebElement(driver, locatorType).size();
+	}
 
 	// User action
 	

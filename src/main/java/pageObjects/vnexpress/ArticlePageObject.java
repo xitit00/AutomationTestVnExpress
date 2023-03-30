@@ -374,8 +374,8 @@ public class ArticlePageObject extends BasePage {
 	public boolean isSucKhoeNavBarDisplay(String nav_dymamic_class, String nav_dymamic_text) {
 		// TODO Auto-generated method stub
 		
-		waitForElementVisible(driver, Article_Page_UI.NAVIGATE_BAR_ICON, nav_dymamic_class, nav_dymamic_text);
-		return isElementDisplayed(driver, Article_Page_UI.NAVIGATE_BAR_ICON, nav_dymamic_class, nav_dymamic_text);
+		waitForElementVisible(driver, Article_Page_UI.NAVIGATE_BAR_ICON,nav_dymamic_class, nav_dymamic_text);
+		return isElementDisplayed(driver, Article_Page_UI.NAVIGATE_BAR_ICON,nav_dymamic_class, nav_dymamic_text);
 	}
 
 	public boolean isDoiSongNavBarDisplay(String nav_dymamic_class, String nav_dymamic_text) {
@@ -395,8 +395,8 @@ public class ArticlePageObject extends BasePage {
 	public boolean isSoHoaNavBarDisplay(String nav_dymamic_class, String nav_dymamic_text) {
 		// TODO Auto-generated method stub
 		
-		waitForElementVisible(driver, Article_Page_UI.NAVIGATE_BAR_ICON, nav_dymamic_class, nav_dymamic_text);
-		return isElementDisplayed(driver, Article_Page_UI.NAVIGATE_BAR_ICON, nav_dymamic_class, nav_dymamic_text);
+		waitForElementVisible(driver, Article_Page_UI.NAVIGATE_BAR_ICON,nav_dymamic_class,nav_dymamic_text);
+		return isElementDisplayed(driver, Article_Page_UI.NAVIGATE_BAR_ICON,nav_dymamic_class,nav_dymamic_text);
 	}
 
 	public boolean isXeNavBarDisplay(String nav_dymamic_class, String nav_dymamic_text) {
@@ -689,7 +689,5 @@ public class ArticlePageObject extends BasePage {
 		
 		return pt;
 	}
-
-	
 
 }

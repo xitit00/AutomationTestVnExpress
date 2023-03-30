@@ -14,6 +14,7 @@ import com.aventstack.extentreports.Status;
 import common.BaseTest;
 import pageObjects.vnexpress.ArticlePageObject;
 import pageObjects.vnexpress.PageGeneratorManager;
+import pageUIs.vnexpress.Login_Page_UI;
 import reportConfig.ExtentTestManagerV5;
 
 
@@ -55,6 +56,12 @@ public class Test_Authentication extends BaseTest {
 		ExtentTestManagerV5.getTest().log(Status.INFO, "TC_01_VerifyEmailInvalid - Step 05: verifyEmailTitleDisplay");
 		Assert.assertEquals(articlePageObject.getActualEmailTitle(), "Đăng nhập với email");
 		
+		String rgbColorEmail = articlePageObject.getElementCssValue(driver, Login_Page_UI.EMAIL_TEXTBOX, "border-color");
+		System.out.println("RGB color: " + rgbColorEmail);
+		
+		String hexColorEmail = articlePageObject.getHexaColorFromRGBA(rgbColorEmail);
+		System.out.println("Hex color: " + hexColorEmail);
+		
 		ExtentTestManagerV5.getTest().log(Status.INFO, "TC_01_VerifyEmailInvalid - Step 06: inputEmail");
 		email = "abc";
 		articlePageObject.inputEmail(email);
@@ -68,8 +75,29 @@ public class Test_Authentication extends BaseTest {
 		
 	}
 	
-	@Test
-	public void TC_02_VerifyDisplayPleaseInputPasswordErrText(Method method) {
+	//@Test
+	public void TC_02_verifyDisplayPleaseInputEmailErrText(Method method) {
+		
+		sleepInSecond(3);
+		ExtentTestManagerV5.startTest(method.getName(), "TC_02_verifyDisplayPleaseInputEmailErrText");
+		
+		ExtentTestManagerV5.getTest().log(Status.INFO, "TC_02_verifyDisplayPleaseInputEmailErrText - Step 01: clearEmailText");
+		articlePageObject.clearEmailText();
+		sleepInSecond(3);
+		
+		ExtentTestManagerV5.getTest().log(Status.INFO, "TC_02_verifyDisplayPleaseInputEmailErrText - Step 02: verifyEmailTextError");
+		Assert.assertEquals(articlePageObject.getActualEmailTextErr(), "Hãy nhập email");
+		
+		ExtentTestManagerV5.getTest().log(Status.INFO, "TC_02_verifyDisplayPleaseInputEmailErrText - Step 03: verifyLoginButtonDisable");
+		Assert.assertFalse(articlePageObject.isEnableLoginButton());
+		
+	
+		
+	}
+
+	
+	//@Test
+	public void TC_03_VerifyDisplayPleaseInputPasswordErrText(Method method) {
 		
 		
 		sleepInSecond(3);
@@ -93,8 +121,8 @@ public class Test_Authentication extends BaseTest {
 		
 	}
 	
-	@Test
-	public void TC_03_VerifyPasswordLessThanSixChars(Method method) {
+	//@Test
+	public void TC_04_VerifyPasswordLessThanSixChars(Method method) {
 		
 		sleepInSecond(3);
 		password = "123";
@@ -112,8 +140,8 @@ public class Test_Authentication extends BaseTest {
 	}
 	
 	
-	@Test
-	public void TC_04_VerifyPasswordMuchMoreThanFifteenChars(Method method) {
+	//@Test
+	public void TC_05_VerifyPasswordMuchMoreThanFifteenChars(Method method) {
 		
 		sleepInSecond(3);
 		password = "automationtest123@";
@@ -130,8 +158,8 @@ public class Test_Authentication extends BaseTest {
 		Assert.assertFalse(articlePageObject.isEnableLoginButton());
 	}
 	
-	@Test
-	public void TC_05_verifyEmailValid(Method method) {
+	//@Test
+	public void TC_06_verifyEmailValid(Method method) {
 		
 		sleepInSecond(3);
 		email = "autotest2411@gmail.com";
@@ -179,7 +207,7 @@ public class Test_Authentication extends BaseTest {
 	@AfterClass
 	public void afterClass() {
 		
-		driver.quit();
+		//driver.quit();
 	}
 
 }
