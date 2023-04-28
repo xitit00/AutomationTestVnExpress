@@ -5,10 +5,7 @@
 
 	<listeners>
 	
-		
-		<listener class-name="reportConfig.ExtentTestListenerV5" /> 
-
-		
+		<!--> <listener class-name="reportConfig.ExtentTestListenerV5" /> <-->
 		
 	</listeners>
 	

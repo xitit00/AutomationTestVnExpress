@@ -1,18 +1,18 @@
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/pageObjects/vnexpress/MailPageObject.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/pageObjects/vnexpress/PageGeneratorManager.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/pageUIs/vnexpress/Zing_Page_UI.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/pageUIs/vnexpress/Article_Page_UI.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/common/BasePage.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/common/GlobalConstants.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/reportConfig/ExtentTestListenerV5.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/pageObjects/vnexpress/FacebookPageObject.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/pageObjects/vnexpress/ArticlePageObject.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/pageObjects/vnexpress/PhanTichPageObject.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/reportConfig/ExtentManagerV5.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/pageUIs/vnexpress/Login_Page_UI.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/common/BrowserList.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/common/BaseTest.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/pageObjects/vnexpress/TheGioiPageObject.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/reportConfig/ExtentTestManagerV5.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/pageUIs/vnexpress/Thegioi_Page_UI.java
-/Users/anhnguyen/Documents/Selenium/08-Maven Automation Framework/src/main/java/pageObjects/vnexpress/ZingPageObject.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageUIs/vnexpress/Zing_Page_UI.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/reportConfig/ExtentTestManagerV5.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageObjects/vnexpress/PhanTichPageObject.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/common/BrowserList.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/common/BasePage.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageObjects/vnexpress/ArticlePageObject.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageObjects/vnexpress/PageGeneratorManager.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/reportConfig/ExtentTestListenerV5.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageUIs/vnexpress/Thegioi_Page_UI.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/common/GlobalConstants.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/reportConfig/ExtentManagerV5.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageObjects/vnexpress/FacebookPageObject.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageUIs/vnexpress/Article_Page_UI.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/common/BaseTest.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageObjects/vnexpress/ZingPageObject.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageObjects/vnexpress/MailPageObject.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageUIs/vnexpress/Login_Page_UI.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageObjects/vnexpress/TheGioiPageObject.java

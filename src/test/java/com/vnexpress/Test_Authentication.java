@@ -207,7 +207,7 @@ public class Test_Authentication extends BaseTest {
 	@AfterClass
 	public void afterClass() {
 		
-		//driver.quit();
+		driver.quit();
 	}
 
 }
