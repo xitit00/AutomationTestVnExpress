@@ -1,0 +1,1 @@
+{"uuid":"d68e80bf-7b1f-4f33-aaaa-6f17f90e3048","name":"Authentication","children":["26bb4017-e902-428b-8637-16bb07afd0bb"],"befores":[{"name":"initBeforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1683533877814,"stop":1683533877835}],"afters":[],"start":1683533877764,"stop":1683533910821}

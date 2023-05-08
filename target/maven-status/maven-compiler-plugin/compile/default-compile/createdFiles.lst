@@ -2,6 +2,7 @@ common/BasePage$1.class
 pageUIs/vnexpress/Article_Page_UI.class
 pageObjects/vnexpress/FacebookPageObject.class
 common/BasePage.class
+reportConfig/AllureTestListener.class
 pageObjects/vnexpress/PhanTichPageObject.class
 common/GlobalConstants.class
 pageUIs/vnexpress/Zing_Page_UI.class

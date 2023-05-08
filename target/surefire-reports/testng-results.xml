@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-19T15:02:07Z" name="VnExpress" finished-at="2023-04-19T15:02:28Z" duration-ms="21047">
+  <suite started-at="2023-05-08T08:17:57Z" name="Authentication" finished-at="2023-05-08T08:18:30Z" duration-ms="32939">
     <groups>
     </groups>
-    <test started-at="2023-04-19T15:02:07Z" name="Run On Chrome" finished-at="2023-04-19T15:02:28Z" duration-ms="21047">
+    <test started-at="2023-05-08T08:17:57Z" name="Run On Chrome" finished-at="2023-05-08T08:18:30Z" duration-ms="32939">
       <class name="com.vnexpress.Test_Authentication">
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.vnexpress.Test_Authentication@47eaca72]" started-at="2023-04-19T15:02:07Z" name="beforeClass" finished-at="2023-04-19T15:02:24Z" duration-ms="17073" status="PASS">
+        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:com.vnexpress.Test_Authentication@69da0b12]" started-at="2023-05-08T08:17:57Z" name="initBeforeSuite" finished-at="2023-05-08T08:17:57Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.vnexpress.Test_Authentication@69da0b12]" started-at="2023-05-08T08:17:57Z" name="beforeClass" finished-at="2023-05-08T08:18:12Z" duration-ms="14751" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_VerifyEmailInvalid(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Authentication@47eaca72]" started-at="2023-04-19T15:02:24Z" name="TC_01_VerifyEmailInvalid" finished-at="2023-04-19T15:02:28Z" duration-ms="3899" status="PASS">
+        <test-method signature="TC_01_VerifyEmailInvalid(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Authentication@69da0b12]" started-at="2023-05-08T08:18:12Z" name="TC_01_VerifyEmailInvalid" finished-at="2023-05-08T08:18:14Z" duration-ms="2321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,11 +38,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_VerifyEmailInvalid -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.vnexpress.Test_Authentication@47eaca72]" started-at="2023-04-19T15:02:28Z" name="afterClass" finished-at="2023-04-19T15:02:28Z" duration-ms="0" status="PASS">
+        <test-method signature="TC_03_VerifyDisplayPleaseInputPasswordErrText(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Authentication@69da0b12]" started-at="2023-05-08T08:18:15Z" name="TC_03_VerifyDisplayPleaseInputPasswordErrText" finished-at="2023-05-08T08:18:18Z" duration-ms="3709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Authentication.TC_03_VerifyDisplayPleaseInputPasswordErrText(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_VerifyDisplayPleaseInputPasswordErrText -->
+        <test-method signature="TC_04_VerifyPasswordLessThanSixChars(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Authentication@69da0b12]" started-at="2023-05-08T08:18:18Z" name="TC_04_VerifyPasswordLessThanSixChars" finished-at="2023-05-08T08:18:22Z" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Authentication.TC_04_VerifyPasswordLessThanSixChars(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_VerifyPasswordLessThanSixChars -->
+        <test-method signature="TC_05_VerifyPasswordMuchMoreThanFifteenChars(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Authentication@69da0b12]" started-at="2023-05-08T08:18:22Z" name="TC_05_VerifyPasswordMuchMoreThanFifteenChars" finished-at="2023-05-08T08:18:25Z" duration-ms="3357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Authentication.TC_05_VerifyPasswordMuchMoreThanFifteenChars(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_VerifyPasswordMuchMoreThanFifteenChars -->
+        <test-method signature="TC_06_VerifyEmailValid(java.lang.reflect.Method)[pri:0, instance:com.vnexpress.Test_Authentication@69da0b12]" started-at="2023-05-08T08:18:25Z" name="TC_06_VerifyEmailValid" finished-at="2023-05-08T08:18:30Z" duration-ms="4860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vnexpress.Test_Authentication.TC_06_VerifyEmailValid(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_VerifyEmailValid -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.vnexpress.Test_Authentication@69da0b12]" started-at="2023-05-08T08:18:30Z" name="afterClass" finished-at="2023-05-08T08:18:30Z" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.vnexpress.Test_Authentication -->
     </test> <!-- Run On Chrome -->
+  </suite> <!-- Authentication -->
+  <suite started-at="2023-05-08T08:18:30Z" name="VnExpress" finished-at="2023-05-08T08:18:30Z" duration-ms="0">
+    <groups>
+    </groups>
   </suite> <!-- VnExpress -->
 </testng-results>

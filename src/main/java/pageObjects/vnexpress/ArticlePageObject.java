@@ -3,6 +3,7 @@ package pageObjects.vnexpress;
 import org.openqa.selenium.WebDriver;
 
 import common.BasePage;
+import io.qameta.allure.Step;
 import pageUIs.vnexpress.Article_Page_UI;
 import pageUIs.vnexpress.Login_Page_UI;
 
@@ -15,6 +16,7 @@ public class ArticlePageObject extends BasePage {
 		this.driver = driver;
 	}
 
+	@Step("Navigate To Login")
 	public void clickLoginLink() {
 		// TODO Auto-generated method stub
 		
@@ -29,7 +31,7 @@ public class ArticlePageObject extends BasePage {
 		return isElementDisplayed(driver, Login_Page_UI.LOGIN_EMAIL_TITLE);
 	}
 
- 
+	@Step("Input Email {0}")
 	public void inputEmail(String email) {
 		// TODO Auto-generated method stub
 		
@@ -38,7 +40,7 @@ public class ArticlePageObject extends BasePage {
 		
 	}
 
-
+	@Step("verifyLoginButtonDisable")
 	public boolean isEnableLoginButton() {
 		// TODO Auto-generated method stub
 		
@@ -47,7 +49,7 @@ public class ArticlePageObject extends BasePage {
 	
 	}
 
-
+	@Step("clear Email Text")
 	public void clearEmailText() {
 		// TODO Auto-generated method stub
 
@@ -55,6 +57,7 @@ public class ArticlePageObject extends BasePage {
 		
 	}
 
+	@Step("clickPasswordTextBox")
 	public void clickPasswordTextBox() {
 		// TODO Auto-generated method stub
 		
@@ -62,7 +65,7 @@ public class ArticlePageObject extends BasePage {
 		clickToElement(driver, Login_Page_UI.PASSWORD_TEXTBOX);
 	}
 
-
+	@Step("clickTitleEmailLogin")
 	public void clickTitleEmailLogin() {
 		// TODO Auto-generated method stub
 		waitForElementClickable(driver, Login_Page_UI.LOGIN_EMAIL_TITLE);
@@ -70,22 +73,21 @@ public class ArticlePageObject extends BasePage {
 	}
 
 
-
+	@Step("inputPassword")
 	public void inputPassword(String password) {
 		// TODO Auto-generated method stub
 		waitForElementVisible(driver, Login_Page_UI.PASSWORD_TEXTBOX);
 		sendkeyToElement(driver, Login_Page_UI.PASSWORD_TEXTBOX, password);
 	}
 
-
-
+	@Step("closePopup")
 	public boolean isClosePopup() {
 		// TODO Auto-generated method stub
 		waitForElementVisible(driver, Login_Page_UI.LOGIN_POPUP);
 		return isElementDisplayed(driver, Login_Page_UI.LOGIN_POPUP);
 	}
 
-
+	@Step("clickLoginButton")
 	public void clickLoginButton() {
 		// TODO Auto-generated method stub
 		
@@ -93,6 +95,7 @@ public class ArticlePageObject extends BasePage {
 		clickToElement(driver, Login_Page_UI.LOGIN_BUTTON);
 	}
 
+	@Step("Verify Ifram Display")
 	public boolean isIFrameDisplay() {
 		// TODO Auto-generated method stub
 		
@@ -100,6 +103,7 @@ public class ArticlePageObject extends BasePage {
 		return isElementDisplayed(driver, Login_Page_UI.IFRAME_POPUP);
 	}
 
+	@Step("Switch To IFrame")
 	public void switchToIFrame() {
 		// TODO Auto-generated method stub
 		
@@ -107,6 +111,7 @@ public class ArticlePageObject extends BasePage {
 		switchToFrameIframe(driver, Login_Page_UI.IFRAME_POPUP);
 	}
 
+	@Step("Verify Login Link Display")
 	public boolean isLoginLinkDisplay() {
 		// TODO Auto-generated method stub
 		
@@ -115,12 +120,14 @@ public class ArticlePageObject extends BasePage {
 		
 	}
 
+	@Step("switchToDefault")
 	public void switchToDefault() {
 		// TODO Auto-generated method stub
 		
 		switchToDefaultContent(driver);
 	}
 
+	@Step("verifyUserInfoDisplay")
 	public boolean isUserAvartarDisplay(String email) {
 		// TODO Auto-generated method stub
 
@@ -128,6 +135,7 @@ public class ArticlePageObject extends BasePage {
 		return isElementDisplayed(driver, Login_Page_UI.USER_AVATAR, email);
 	}
 
+	@Step("verifyEmailTextErrorDisplay")
 	public String getActualEmailTextErr() {
 		// TODO Auto-generated method stub
 		
@@ -136,6 +144,7 @@ public class ArticlePageObject extends BasePage {
 		return getWebElement(driver, Login_Page_UI.EMAIL_ERR_TEXT).getText();
 	}
 
+	@Step("verifyPasswordTextError")
 	public String getActualPasswordTextErr() {
 		// TODO Auto-generated method stub
 		waitForElementVisible(driver, Login_Page_UI.PASSWORD_ERR_TEXT);
@@ -144,6 +153,7 @@ public class ArticlePageObject extends BasePage {
 		
 	}
 
+	@Step("Verify Email Title Display")
 	public String getActualEmailTitle() {
 		// TODO Auto-generated method stub
 		

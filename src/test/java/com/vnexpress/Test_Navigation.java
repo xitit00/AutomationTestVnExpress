@@ -159,6 +159,8 @@ public class Test_Navigation extends BaseTest {
 		ExtentTestManagerV5.getTest().log(Status.INFO, "TC_07_SwitchFromVnExpressToMailTab - Step 02: verifyArticleTitleVnExpressDisplay");
 		Assert.assertTrue(articlePageObject.isTitleArticleDisplay());
 		
+		
+		
 		ExtentTestManagerV5.getTest().log(Status.INFO, "TC_07_SwitchFromVnExpressToMailTab - Step 03: clickMailLinkAndSwitchToMailTab");
 		mailPageObject = articlePageObject.clickMailLinkAndSwitchToMailTab();
 		

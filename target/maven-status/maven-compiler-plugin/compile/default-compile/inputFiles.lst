@@ -8,6 +8,7 @@
 /Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/reportConfig/ExtentTestListenerV5.java
 /Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageUIs/vnexpress/Thegioi_Page_UI.java
 /Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/common/GlobalConstants.java
+/Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/reportConfig/AllureTestListener.java
 /Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/reportConfig/ExtentManagerV5.java
 /Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageObjects/vnexpress/FacebookPageObject.java
 /Users/mac/Documents/Selenium/05 - VnExpress Site/Automation-TestVn-Express/src/main/java/pageUIs/vnexpress/Article_Page_UI.java

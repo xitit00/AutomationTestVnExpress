@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--> <suite parallel="tests" name="Article" thread-count="3"> <-->
+
+<suite parallel="false" name="Article">
+
+
+	<listeners>
+	
+		
+		<listener class-name="reportConfig.ExtentTestListenerV5" /> 
+
+		
+	</listeners>
+	
+	<parameter name="url" value="https://vnexpress.net/trong-tre-du-co-ve-lam-to-4545196.html" />
+	
+	<test name="Run On Chrome">
+	
+		<parameter name="browser" value="chrome" />
+		<classes>
+		
+			<class name="com.vnexpress.Check_Article_Content" />
+			
+		</classes>
+		
+	</test>
+	
+	<!-- ><test name="Run On Firefox">
+	
+		<parameter name="browser" value="firefox" />
+		<classes>
+		
+			<class name="com.vnexpress.Check_Article_Content" />
+			
+		</classes>
+		
+	</test>
+	
+	<test name="Run On Edge">
+	
+		<parameter name="browser" value="edge" />
+		<classes>
+		
+			<class name="com.vnexpress.Check_Article_Content" />
+			
+		</classes>
+		
+	</test> <-->
+	
+</suite> <!-- Suite -->
