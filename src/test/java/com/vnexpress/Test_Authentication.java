@@ -101,6 +101,15 @@ public class Test_Authentication extends BaseTest {
 //	
 //		
 //	}
+	
+	@Description("Verify Email Invalid")
+	@Severity(SeverityLevel.NORMAL)
+	@Test
+	public void TC_02_verifyDisplayPleaseInputEmailErrText(Method method) {
+	
+		System.out.print("Add TC_02");
+		
+	}
 
 	@Description("Verify Display Please Input Password Err Text")
 	@Severity(SeverityLevel.NORMAL)
