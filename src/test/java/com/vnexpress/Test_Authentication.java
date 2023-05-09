@@ -80,38 +80,28 @@ public class Test_Authentication extends BaseTest {
 		
 	}
 	
-//	@Description("Verify Email Invalid")
-//	@Severity(SeverityLevel.NORMAL)
-//	@Test
-//	public void TC_02_verifyDisplayPleaseInputEmailErrText(Method method) {
-//		
-//		sleepInSecond(3);
-//		//ExtentTestManagerV5.startTest(method.getName(), "TC_02_verifyDisplayPleaseInputEmailErrText");
-//		
-//		//ExtentTestManagerV5.getTest().log(Status.INFO, "TC_02_verifyDisplayPleaseInputEmailErrText - Step 01: clearEmailText");
-//		articlePageObject.clearEmailText();
-//		sleepInSecond(3);
-//		
-//		//ExtentTestManagerV5.getTest().log(Status.INFO, "TC_02_verifyDisplayPleaseInputEmailErrText - Step 02: verifyEmailTextError");
-//		Assert.assertEquals(articlePageObject.getActualEmailTextErr(), "Hãy nhập email");
-//		
-//		//ExtentTestManagerV5.getTest().log(Status.INFO, "TC_02_verifyDisplayPleaseInputEmailErrText - Step 03: verifyLoginButtonDisable");
-//		Assert.assertFalse(articlePageObject.isEnableLoginButton());
-//		
-//	
-//		
-//	}
-	
 	@Description("Verify Email Invalid")
 	@Severity(SeverityLevel.NORMAL)
 	@Test
 	public void TC_02_verifyDisplayPleaseInputEmailErrText(Method method) {
+		
+		sleepInSecond(3);
+		//ExtentTestManagerV5.startTest(method.getName(), "TC_02_verifyDisplayPleaseInputEmailErrText");
+		
+		//ExtentTestManagerV5.getTest().log(Status.INFO, "TC_02_verifyDisplayPleaseInputEmailErrText - Step 01: clearEmailText");
+		articlePageObject.clearEmailText();
+		sleepInSecond(3);
+		
+		//ExtentTestManagerV5.getTest().log(Status.INFO, "TC_02_verifyDisplayPleaseInputEmailErrText - Step 02: verifyEmailTextError");
+		Assert.assertEquals(articlePageObject.getActualEmailTextErr(), "Hãy nhập email");
+		
+		//ExtentTestManagerV5.getTest().log(Status.INFO, "TC_02_verifyDisplayPleaseInputEmailErrText - Step 03: verifyLoginButtonDisable");
+		Assert.assertFalse(articlePageObject.isEnableLoginButton());
+		
 	
-		System.out.print("Add TC_02 Passed!");
 		
 	}
 	
-
 	@Description("Verify Display Please Input Password Err Text")
 	@Severity(SeverityLevel.NORMAL)
 	@Test
